@@ -150,11 +150,11 @@ function Index() {
             </h2>
           </Reveal>
           <div className="grid md:grid-cols-3 gap-8 mb-14">
-            {[
+            {([
               [Home, "Major house builders are not fans of self-build.", "The system works better when you buy from them. An individual who builds their own home is exercising a legal right the industry did not design for."],
               [Tag, "Estate agents are not fans of private sales.", "You can sell your own home. The industry works better when you need them to do it for you."],
               [Flower2, "Funeral directors are not fans of families who arrange their own funerals.", "Entirely legal. The model works better when grief makes you hand everything over."],
-            ].map(([Icon, h, p], i) => (
+            ] as const).map(([Icon, h, p], i) => (
               <Reveal key={i}>
                 <div className="text-center md:text-left">
                   <div className="inline-flex items-center justify-center w-14 h-14 border border-gold mb-5">
