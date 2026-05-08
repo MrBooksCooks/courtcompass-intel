@@ -72,14 +72,18 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
+      { title: "Family Court Help | 30-Year McKenzie Friend & LL.M Expert" },
+      { name: "description", content: "Expert McKenzie Friend with 30 years experience and an LL.M in Access to Justice. Understand your case, your documents and what the court actually thinks." },
       { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { property: "og:title", content: "Family Court Help | 30-Year McKenzie Friend & LL.M Expert" },
+      { property: "og:description", content: "Expert McKenzie Friend with 30 years experience and an LL.M in Access to Justice. Understand your case, your documents and what the court actually thinks." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "Family Court Help | 30-Year McKenzie Friend & LL.M Expert" },
+      { name: "twitter:description", content: "Expert McKenzie Friend with 30 years experience and an LL.M in Access to Justice. Understand your case, your documents and what the court actually thinks." },
+      { property: "og:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/KCVrztxW64RcxaL0QbjVvB6WEEz1/social-images/social-1778253254640-courtcompassssocialimage.webp" },
+      { name: "twitter:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/KCVrztxW64RcxaL0QbjVvB6WEEz1/social-images/social-1778253254640-courtcompassssocialimage.webp" },
     ],
     links: [
       {
