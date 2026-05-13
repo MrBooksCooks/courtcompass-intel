@@ -37,8 +37,10 @@
   --color-cream: var(--cream);
   --color-cream-foreground: var(--cream-foreground);
   --color-alert: var(--alert);
-  --font-serif: "Playfair Display", Georgia, serif;
-  --font-sans: "Inter", system-ui, sans-serif;
+  --font-serif: "Roboto Serif", Georgia, serif;
+--font-sans: "Poppins", system-ui, sans-serif;
+--font-script: "Dancing Script", cursive;
+
 }
 
 :root {
@@ -87,7 +89,7 @@
   body {
     background-color: var(--color-background);
     color: var(--color-foreground);
-    font-family: var(--font-sans);
+    font-family: var(--font-serif);
     -webkit-font-smoothing: antialiased;
   }
   h1, h2, h3, .serif {
